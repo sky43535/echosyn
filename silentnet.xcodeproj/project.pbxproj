@@ -53,13 +53,13 @@
 		EB32C44D2DFCE30F00FCF303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../ChatApp/ChatApp/Assets.xcassets; sourceTree = "<group>"; };
 		EB32C45C2DFCE4FD00FCF303 /* echosync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = echosync.entitlements; sourceTree = "<group>"; };
 		EB32C45D2DFCE50B00FCF303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		EBE8AACC2DFCE01900BA698F /* echosync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = echosync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE8AACC2DFCE01900BA698F /* silentnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = silentnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE8AAD12DFCE01900BA698F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBE8AAD32DFCE01900BA698F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EBE8AAD82DFCE01E00BA698F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EBE8AADE2DFCE01E00BA698F /* echosyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = echosyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE8AADE2DFCE01E00BA698F /* silentnetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = silentnetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE8AAE22DFCE01E00BA698F /* echosyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echosyncTests.swift; sourceTree = "<group>"; };
-		EBE8AAE82DFCE01E00BA698F /* echosyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = echosyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE8AAE82DFCE01E00BA698F /* silentnetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = silentnetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE8AAEC2DFCE01E00BA698F /* echosyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echosyncUITests.swift; sourceTree = "<group>"; };
 		EBE8AAEE2DFCE01E00BA698F /* echosyncUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echosyncUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,9 +108,9 @@
 		EBE8AACD2DFCE01900BA698F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBE8AACC2DFCE01900BA698F /* echosync.app */,
-				EBE8AADE2DFCE01E00BA698F /* echosyncTests.xctest */,
-				EBE8AAE82DFCE01E00BA698F /* echosyncUITests.xctest */,
+				EBE8AACC2DFCE01900BA698F /* silentnet.app */,
+				EBE8AADE2DFCE01E00BA698F /* silentnetTests.xctest */,
+				EBE8AAE82DFCE01E00BA698F /* silentnetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EBE8AACB2DFCE01900BA698F /* echosync */ = {
+		EBE8AACB2DFCE01900BA698F /* silentnet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBE8AAF22DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "echosync" */;
+			buildConfigurationList = EBE8AAF22DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "silentnet" */;
 			buildPhases = (
 				EBE8AAC82DFCE01900BA698F /* Sources */,
 				EBE8AAC92DFCE01900BA698F /* Frameworks */,
@@ -173,7 +173,7 @@
 			);
 			dependencies = (
 			);
-			name = echosync;
+			name = silentnet;
 			packageProductDependencies = (
 				EB32C4502DFCE4CC00FCF303 /* FirebaseAuth */,
 				EB32C4522DFCE4CC00FCF303 /* FirebaseAuthCombine-Community */,
@@ -183,12 +183,12 @@
 				EB32C45A2DFCE4CC00FCF303 /* FirebaseFirestoreSwift */,
 			);
 			productName = echosync;
-			productReference = EBE8AACC2DFCE01900BA698F /* echosync.app */;
+			productReference = EBE8AACC2DFCE01900BA698F /* silentnet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EBE8AADD2DFCE01E00BA698F /* echosyncTests */ = {
+		EBE8AADD2DFCE01E00BA698F /* silentnetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBE8AAF52DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "echosyncTests" */;
+			buildConfigurationList = EBE8AAF52DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "silentnetTests" */;
 			buildPhases = (
 				EBE8AADA2DFCE01E00BA698F /* Sources */,
 				EBE8AADB2DFCE01E00BA698F /* Frameworks */,
@@ -199,14 +199,14 @@
 			dependencies = (
 				EBE8AAE02DFCE01E00BA698F /* PBXTargetDependency */,
 			);
-			name = echosyncTests;
+			name = silentnetTests;
 			productName = echosyncTests;
-			productReference = EBE8AADE2DFCE01E00BA698F /* echosyncTests.xctest */;
+			productReference = EBE8AADE2DFCE01E00BA698F /* silentnetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EBE8AAE72DFCE01E00BA698F /* echosyncUITests */ = {
+		EBE8AAE72DFCE01E00BA698F /* silentnetUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBE8AAF82DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "echosyncUITests" */;
+			buildConfigurationList = EBE8AAF82DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "silentnetUITests" */;
 			buildPhases = (
 				EBE8AAE42DFCE01E00BA698F /* Sources */,
 				EBE8AAE52DFCE01E00BA698F /* Frameworks */,
@@ -217,9 +217,9 @@
 			dependencies = (
 				EBE8AAEA2DFCE01E00BA698F /* PBXTargetDependency */,
 			);
-			name = echosyncUITests;
+			name = silentnetUITests;
 			productName = echosyncUITests;
-			productReference = EBE8AAE82DFCE01E00BA698F /* echosyncUITests.xctest */;
+			productReference = EBE8AAE82DFCE01E00BA698F /* silentnetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EBE8AAC72DFCE01900BA698F /* Build configuration list for PBXProject "echosync" */;
+			buildConfigurationList = EBE8AAC72DFCE01900BA698F /* Build configuration list for PBXProject "silentnet" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -261,9 +261,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBE8AACB2DFCE01900BA698F /* echosync */,
-				EBE8AADD2DFCE01E00BA698F /* echosyncTests */,
-				EBE8AAE72DFCE01E00BA698F /* echosyncUITests */,
+				EBE8AACB2DFCE01900BA698F /* silentnet */,
+				EBE8AADD2DFCE01E00BA698F /* silentnetTests */,
+				EBE8AAE72DFCE01E00BA698F /* silentnetUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,12 +331,12 @@
 /* Begin PBXTargetDependency section */
 		EBE8AAE02DFCE01E00BA698F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBE8AACB2DFCE01900BA698F /* echosync */;
+			target = EBE8AACB2DFCE01900BA698F /* silentnet */;
 			targetProxy = EBE8AADF2DFCE01E00BA698F /* PBXContainerItemProxy */;
 		};
 		EBE8AAEA2DFCE01E00BA698F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBE8AACB2DFCE01900BA698F /* echosync */;
+			target = EBE8AACB2DFCE01900BA698F /* silentnet */;
 			targetProxy = EBE8AAE92DFCE01E00BA698F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -546,7 +546,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/echosync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/echosync";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/silentnet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/silentnet";
 			};
 			name = Debug;
 		};
@@ -565,7 +565,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/echosync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/echosync";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/silentnet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/silentnet";
 			};
 			name = Release;
 		};
@@ -606,7 +606,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EBE8AAC72DFCE01900BA698F /* Build configuration list for PBXProject "echosync" */ = {
+		EBE8AAC72DFCE01900BA698F /* Build configuration list for PBXProject "silentnet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBE8AAF02DFCE01E00BA698F /* Debug */,
@@ -615,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBE8AAF22DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "echosync" */ = {
+		EBE8AAF22DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "silentnet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBE8AAF32DFCE01E00BA698F /* Debug */,
@@ -624,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBE8AAF52DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "echosyncTests" */ = {
+		EBE8AAF52DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "silentnetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBE8AAF62DFCE01E00BA698F /* Debug */,
@@ -633,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBE8AAF82DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "echosyncUITests" */ = {
+		EBE8AAF82DFCE01E00BA698F /* Build configuration list for PBXNativeTarget "silentnetUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBE8AAF92DFCE01E00BA698F /* Debug */,
